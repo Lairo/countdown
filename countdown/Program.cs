@@ -10,7 +10,7 @@ class CountdownTimer
     {
         Console.WriteLine("Countdown Timer (in milliseconds)");
 
-        // Start the timer in a separate thread
+        //Start the timer in a separate thread
         Thread timerThread = new Thread(TimerLoop);
         timerThread.Start();
 
